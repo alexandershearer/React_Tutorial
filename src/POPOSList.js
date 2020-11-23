@@ -3,15 +3,17 @@ import POPOSSpace from './POPOSSpace.js'
 import './POPOSList.css';
 import data from './sfpopos-data.json'
 
+
 function POPOSList() {
 
-    const spaces = data.map(({ title, address, images }) => {
+    const spaces = data.map(({ title, address, images, hours }) => {
         return (
             <POPOSSpace
                 key={title} // The title could be a key
                 name={title}
                 address={address}
                 image={images[0]}
+                hours={hours}
             />
         )
     })

@@ -9,7 +9,7 @@ function getYear() {
 function Footer() {
     return (
         <div className="Footer">
-            <h2>Alex Shearer copyright {getYear()}</h2>
+            <h3>Alex Shearer copyright {getYear()}</h3>
         </div>
     )
 }

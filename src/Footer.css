@@ -1,12 +1,13 @@
 .Footer {
     display: flex;
-    align-items: center;
+    justify-content: center;
     padding-left: 20px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255, 169, 169);
     height: 35px;
     margin-top: 40px;
+    padding-top: 5px;
   }
   
-  .Footer h2 {
+  .Footer h3 {
     margin: 0;
   }
