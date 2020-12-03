@@ -16,7 +16,6 @@ function App() {
         <Route exact path="/" component={POPOSList} />
         <Route path="/about" component={About} />
         <Route path="/details/:id" component={POPOSDetails} />
-        <POPOSList />
         <Footer />
       </div>
     </Router>
